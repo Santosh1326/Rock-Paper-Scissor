@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rockpaperscissor.css">
+    <title>Rock Paper Scissor</title>
+</head>
+<body>
+
+    <header>
+        <marquee class="rps" scrollamount="13sec">Welcome to <span class="rock">Rock</span> 
+            <span class="paper">Paper</span> <span class="scissor">Scissor</span> game!</marquee>
+    </header>
+
+    <div class="scoreboard">
+        <div id="userLabel" class="badge">User</div>
+        <div id="compLabel" class="badge">Comp</div>
+        <span id="userScore">0</span>:<span id="compScore">0</span>
+    </div>
+
+    <div class="finalResult">
+        <p id="message">Paper Covers Rock. You Win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="ro">
+            <img src="images/rock.png" alt="Rock">
+        </div>
+        <div class="choice" id="pa">
+            <img src="images/paper.png" alt="Rock">
+        </div>
+        <div class="choice" id="sc">
+            <img src="images/scissors.png" alt="Rock">
+        </div>
+    </div>
+
+    <p id="action-message">Take your Chance.</p>
+
+    <div>
+        <div class="fight">
+            <div class="fight_Img" id="u1">
+                <img id="f1" src="/images/rock.png" alt="not found">
+            </div>
+            <span id="f_vs">VS</span>
+            <div class="fight_Img" id="c1">
+                <img id="f2" src="/images/rock.png" alt="not found">
+            </div>
+        </div>
+    </div>
+        
+    <script src="rockpaperscissor.js"></script>
+
+
+
+</body>
+</html>
